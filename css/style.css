@@ -1,0 +1,142 @@
+
+.header-container
+{
+    background-color: cadetblue;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 3px solid coral;
+
+}
+html, body{
+    margin: 0;
+}
+.brand-logo img
+{
+    width: 20vw;
+    height: 12vh;
+}
+ul.nav-links
+{
+    list-style-type: none;
+}
+li.nav-link
+{
+    padding: 1em;
+    text-decoration: none;
+}
+li 
+{
+    text-decoration: none;
+    display: inline;
+    color : white;
+    font-size: 0.9em;
+
+}
+a{
+    color: white;
+    font-size: 0.9;
+    text-decoration: none;
+}
+button
+{
+    background-color: coral;
+    padding: 1em;
+    border-radius: 20px;
+    width:10vw;
+}
+button:hover
+{
+    color: coral;
+    background-color: white;
+}
+main
+{
+    background-image: url('../img/bg.jpg');
+    height: 80vh;
+    text-align: center;
+    background-size: cover;
+}
+section h1{
+    margin: 0;
+}
+.hero-unit-mask
+{
+    height: 80vh;
+    background-color: rgba(0,0,0,0.4);
+}
+.hero-unit-mask h1
+{
+    color: whitesmoke;
+    padding-top: 30vh;
+    font-size: 4em;
+    padding-bottom: 0.5em;
+}
+.hero-unit-mask a
+{
+background-color: coral;
+padding: 1em;
+border-radius: 5px;    
+}
+.hero-unit-mask a:hover
+{
+    color: coral;
+    background-color: white;
+}
+.paper-layout
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    height: 80vh;
+    
+}
+.paper-layout-container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paper{
+    background-color: white;
+    height: 60vh;
+    width: 25vw;
+    text-align: center;
+    box-shadow: 5px 5px 25px gray;
+}
+.paper img
+{
+ height: 20vh;
+ width: 20vw;
+}
+.paper-layout h1{
+   font-size: 2em;
+   color: #4c4c4c;
+   margin-top: 1em;
+   margin-bottom: 1em;
+}
+.paper h2{
+    margin-top: 2em;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+}
+.paper p{
+    padding: 1em;
+    font-size: 0.8em;
+    text-align: justify;
+}
+footer
+{
+    background-color: greenyellow;
+    height: 10vh;
+    text-align: center;
+    padding-top: 0.7em;
+    border-top: 3px solid coral;
+}
+footer h2
+{
+    margin: 0;
+}
